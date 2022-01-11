@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile1</title>
+    <link rel="stylesheet" href="/don/styes1.css">
+  
+</head>
+<body>
+<a href="/home.html"><h3>Go To Home</h3></a>
+
+<div class="col-md-12"> 
+    <br><br>           
+
+
+<table class="table" id="mt2">
+      <tbody><tr>
+        <td width="15%" rowspan="5">
+        <img src="/don/img/don.jpeg" width="150" style="border:1px solid;">
+        </td>
+        <td width="13%" text-align="right">รหัสนักศึกษา</td>
+        <td width="72%"><strong>632115022</strong></td>
+      </tr>
+      <tr>
+        <td text-align="right">ชื่อ สกุล</td>
+        <td><strong>     Thannavat Valoshin       </strong></td>
+      </tr>
+      <tr>
+        <td text-align="right">ระดับการศึกษา</td>
+        <td><strong>ปริญญาตรี</strong></td>
+      </tr>
+      <tr>
+        <td text-align="right">คณะ</td>
+        <td><strong>วิทยาลัยศิลปะ สื่อ และเทคโนโลยี</strong></td>
+      </tr>
+      <tr>
+        <td text-align="right">สาขา</td>
+        <td><strong>วิศวกรรมซอฟต์แวร์</strong></td>
+      </tr>
+      </tbody></table>
+            
+    <br>
+    <br>
+
+   
+    
+</table>
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Click Here ผลการเรียน</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="/don/grade1.html">ปีการศึกษาที่ 1/ เทอม 1</a>
+      <a href="/don/grade2.html">ปีการศึกษาที่1 / เทอม 2</a>
+      <a href="/don/grade3.html">ปีการศึกษาที่2  / เทอม 1</a>
+      <a href="/don/grade4.html">ปีการศึกษาที่2 / เทอม 2</a>
+      <a href="/don/grade5.html">ปีการศึกษาที่3 / เทอม 1 </a>
+    </div>
+  </div>
+  <script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
