@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,130 +43,40 @@
             
     <br>
     <br>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile1</title>
-  <link rel="stylesheet" href="/jet/styles1.css">
 
-</head>
-
-<body>
-  <section id="title">
-    <!-- <div class="topnav">
-      <nav class="navbar navbar-expand-lg navbar-dark ">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto">
    
-            <a class="nav-link" href="/home.html">Go to Home</a>
-
-            <a class="nav-link" href="/jet/grade1.html">ปีการศึกษาที่ 1/ เทอม 1</a>
-
-            <a class="nav-link" href="/jet/grade2.html">ปีการศึกษาที่1 / เทอม 2</a>
-     
-            <a class="nav-link" href="/jet/grade3.html">ปีการศึกษาที่2 / เทอม 1</a>
-
-            <a class="nav-link" href="/jet/grade4.html">ปีการศึกษาที่2 / เทอม 2</a>
-     
-            <a class="nav-link" href="/jet/grade5.html">ปีการศึกษาที่3 / เทอม 1</a>
     
+</table>
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Click Here ผลการเรียน</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="/jet/grade1.html">ปีการศึกษาที่ 1/ เทอม 1</a>
+      <a href="/jet/grade2.html">ปีการศึกษาที่1 / เทอม 2</a>
+      <a href="/jet/grade3.html">ปีการศึกษาที่2  / เทอม 1</a>
+      <a href="/jet/grade4.html">ปีการศึกษาที่2 / เทอม 2</a>
+      <a href="/jet/grade5.html">ปีการศึกษาที่3 / เทอม 1 </a>
+    </div>
+  </div>
+  <script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
 
-          </ul>
-        </div>
-      </nav> -->
-      <div class="navbar">
-        <a href="/home.html">Home</a>
-  
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown
-            <i class="fa fa-caret-down"></i>
-          </button>
-          <div class="dropdown-content">
-            <a href="/jet/grade1.html">ปีการศึกษาที่ 1/ เทอม 1</a>
-            <a href="/jet/grade2.html">ปีการศึกษาที่1 / เทอม 2</a>
-            <a href="/jet/grade3.html">ปีการศึกษาที่2 / เทอม 1</a>
-            <a href="/jet/grade4.html">ปีการศึกษาที่2 / เทอม 2</a>
-            <a href="/jet/grade5.html">ปีการศึกษาที่3 / เทอม 1</a>
-    
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-12">
-        <br><br>
-        <div class="box">
-          <img src="/jet/img/jet.jpg" width="150" style="border:1px solid;">
-          <table class="table" id="mt2">
-            <tbody>
-              <tr>
-                <td width="15%" rowspan="5">
-
-                </td>
-                <td width="13%" text-align="right">รหัสนักศึกษา</td>
-                <td width="72%"><strong>632115013</strong></td>
-              </tr>
-              <tr>
-                <td text-align="right">ชื่อ สกุล</td>
-                <td><strong> Chanchanok Nantawan </strong></td>
-              </tr>
-              <tr>
-                <td text-align="right">ระดับการศึกษา</td>
-                <td><strong>ปริญญาตรี</strong></td>
-              </tr>
-              <tr>
-                <td text-align="right">คณะ</td>
-                <td><strong>วิทยาลัยศิลปะ สื่อ และเทคโนโลยี</strong></td>
-              </tr>
-              <tr>
-                <td text-align="right">สาขา</td>
-                <td><strong>วิศวกรรมซอฟต์แวร์</strong></td>
-              </tr>
-            </tbody>
-          </table>
-
-          <br>
-          <br>
-
-
-
-        </div>
-
-        </table>
-        <!-- <div class="dropdown">
-          <button onclick="myFunction()" class="dropbtn">Click Here ผลการเรียน</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="/jet/grade1.html">ปีการศึกษาที่ 1/ เทอม 1</a>
-            <a href="/jet/grade2.html">ปีการศึกษาที่1 / เทอม 2</a>
-            <a href="/jet/grade3.html">ปีการศึกษาที่2 / เทอม 1</a>
-            <a href="/jet/grade4.html">ปีการศึกษาที่2 / เทอม 2</a>
-            <a href="/jet/grade5.html">ปีการศึกษาที่3 / เทอม 1 </a>
-          </div>
-        </div> -->
-        <script>
-          /* When the user clicks on the button,
-      toggle between hiding and showing the dropdown content */
-          function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
-          }
-
-          // Close the dropdown menu if the user clicks outside of it
-          window.onclick = function (event) {
-            if (!event.target.matches('.dropbtn')) {
-              var dropdowns = document.getElementsByClassName("dropdown-content");
-              var i;
-              for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                  openDropdown.classList.remove('show');
-                }
-              }
-            }
-          }
-        </script>
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
 </body>
-
 </html>
